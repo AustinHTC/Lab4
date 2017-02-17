@@ -34,10 +34,11 @@ fi
 echo "End Time" `date`
 exit 0
 
-
-
-
-
+# I completed these with a single line of code
+# this displays the top 10 CPU users
+ps aux k-pcpu | head -11
+# this display the top 10 memory users
+ps aux k-pcpu | head -11
 
 
 
